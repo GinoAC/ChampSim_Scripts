@@ -1,6 +1,8 @@
 import os
 
 out = open("miss_stat_out.txt","w+")
+=======
+out = open("miss_stat_out","w+")
 
 for fil in os.listdir("."):
 	#print fil
